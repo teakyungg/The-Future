@@ -4,6 +4,11 @@
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body{
     font-family: Verdana, sans-serif;
 }
@@ -41,6 +46,9 @@ header{
 
             &:hover{
                 color: lightgray;
+                a{
+                    color: lightgray;
+                }
             }
         }
 
