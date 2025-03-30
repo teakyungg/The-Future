@@ -10,6 +10,11 @@ body{
     height: 1000px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .sr-only {
 	position: absolute;
 	width: 1px;
