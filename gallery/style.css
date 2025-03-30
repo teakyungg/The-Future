@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+
+    height: 1000px;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	border: 0;
+	clip: rect(0 0 0 0);
+}
+
+header{
+    --global-nav-padding : 20px 20px;
+    --utility-nav-padding : 10px 10px;
+
+    width: 100%;
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+
+    .inner{
+        width: 1180px;
+        height: 120px;
+        margin: auto;
+        position: relative;
+
+        .item{
+            float: left;
+        }
+    }
+
+    .logo-txt{
+        position: absolute;
+        left: 10px;
+        bottom: 15px;
+    }
+
+    .global-nav{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+
+        .item{
+            padding: var(--global-nav-padding);
+
+            &:hover{
+                color: lightgray;
+            }
+        }
+
+    }
+
+    .utility-nav{
+        position: absolute;
+        right: 30px;
+        top: 20px;
+
+        .item{
+            padding: var(--utility-nav-padding);
+        }
+    }
+
+   
+
+}
+
+.main-img{
+    width: 1000px;
+    margin: auto;
+    padding-top: 120px;
+
+    .item-01{
+        width: 700px;
+        height: 400px;
+
+        margin-top: 5px;
+        margin-right: 5px;
+
+        float: left;
+
+        background-image: url(../Quest/700x400.png);
+        position: relative;
+
+        .title{
+            position: absolute;
+            color: white;
+            font-size: 30px;
+
+            right: 10px; 
+            bottom: 10px;
+        }
+    }
+
+    .item-02{
+        width: 290px;
+        height: 190px;
+
+        float: left;
+
+        background-image: url(../Quest/290x190.png);
+        position: relative;
+
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+
+        .title{
+            position: absolute;
+            color: white;
+            font-size: 30px;
+
+            top: 50px; 
+            left: 10px;
+        }
+    }
+
+    .item-03{
+        width: 290px;
+        height: 95px;
+
+        float: left;
+        position: relative;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+
+        .title{
+            position: absolute;
+            color: white;
+            font-size: 30px;
+
+            right: 10px;
+            bottom: 20px;
+        }
+    }
+
+    .item-04{
+        width: 490px;
+        height: 240px;
+
+        float: left;
+        position: relative;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+        .title{
+            position: absolute;
+            color: gold;
+            font-size: 30px;
+
+            right: 20px;
+            bottom: 30px;
+        }
+
+        .txt{
+            width: 300px;
+            margin: auto;
+            position: relative;
+            top: 160px;
+            
+        }
+    }
+
+    .item-05{
+        width: 500px;
+        height: 490px;
+
+        float: left;
+        position: relative;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+
+        background-image: url(../Quest/500x490.png);
+
+        .title{
+            position: absolute;
+            color: white;
+            font-size: 30px;
+
+            right: 10px;
+            bottom: 20px;
+        }
+
+        .txt{
+            width: 300px;
+            margin: auto;
+            position: relative;
+            top: 160px;
+            
+        }
+    }
+
+    .item-06{
+        width: 1000px;
+        height: 371px;
+
+        float: left;
+        position: relative;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+
+        background-image: url(../Quest/1000x371.png);
+
+        .title{
+            position: absolute;
+            color: white;
+            font-size: 30px;
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .txt{
+            width: 300px;
+            margin: auto;
+            position: relative;
+            top: 160px;
+            
+        }
+    }
+
+    .item-07{
+        width: 1000px;
+        height: 361px;
+
+        float: left;
+        position: relative;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+
+        background-image: url(../Quest/1000x361.png);
+
+        .title{
+            position: absolute;
+            color: white;
+            font-size: 30px;
+        }
+
+        .txt{
+            width: 450px;
+            height: 150px;
+        
+            position: absolute;
+            color: white;
+
+            right: 30px;
+            bottom: 40px;
+            font-size: 20px;
+            text-align: center;
+
+            span{
+                display: block;
+            }
+
+            strong{
+                font-size: 30px;
+            }
+        }
+    }
+    
+
+}
